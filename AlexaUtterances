@@ -1,0 +1,41 @@
+SetReminder set the reminder {hello | Title} on {today tomorrow |Date}
+SetReminder set reminder {abcone | Title} on {today tomorrow |Date}
+SetReminder set my reminder {test|Title} on {today tomorrow |Date}
+SetReminder do set the reminder {testone |Title} on {today tomorrow |Date}
+SetReminder put up a reminder {myreminder | Title} on {today tomorrow |Date}
+SetReminder create a reminder {reminder one| Title} on {today tomorrow |Date}
+SetReminder create a reminder {test one| Title} on {today tomorrow |Date}
+SetReminder create a reminder {test test| Title} on {today tomorrow |Date}
+SetReminder create a reminder {test two| Title} on {today tomorrow |Date}
+SetReminder create a reminder {reminder one| Title} for {today tomorrow |Date}
+SetReminder create a reminder {test one| Title} for {today tomorrow |Date}
+SetReminder create a reminder {test test| Title} for {today tomorrow |Date}
+SetReminder create a reminder {test two| Title} for {today tomorrow |Date}
+SetReminder add up a reminder {reminder one| Title} on {today tomorrow |Date}
+SetReminder place a reminder {reminder test |Title} on {today tomorrow |Date}
+SetReminder add the reminder {testthone testthtwo hello testabc |Title} on {today tomorrow |Date}
+SetReminder place a reminder {testabc testthtwo hello testabc |Title} on {today tomorrow |Date}
+
+GetReminder get my reminders for {today tomorrow |Date}
+GetReminder find my reminders for {today tomorrow |Date}
+GetReminder get reminders for {today tomorrow |Date}
+GetReminder find  reminders for {today tomorrow |Date}
+GetReminder what are my reminders for {today tomorrow |Date}
+GetReminder what  reminders are for  {today tomorrow |Date}
+GetReminder what  reminders  for  {today tomorrow |Date}
+GetReminder fetch me the  reminders for  {today tomorrow |Date}
+GetReminder darling can you get me the reminders for  {today tomorrow |Date}
+
+DeleteReminder delete reminder with {test one| Title} for {today tomorrow |Date}
+DeleteReminder delete the reminder {test one|Title} for {today tomorrow |Date}
+DeleteReminder delete reminder {test |Title} for {today tomorrow |Date}
+DeleteReminder delete reminder {test one|Title} for {today tomorrow |Date}
+DeleteReminder delete reminder {test two|Title} for {today tomorrow |Date}
+DeleteReminder delete reminder {test three|Title} for {today tomorrow |Date}
+DeleteReminder delete entry {onetwo|Title} for {today tomorrow |Date}
+DeleteReminder delete calendar entry {test|Title} for {today tomorrow |Date}
+
+
+AMAZON.StopIntent bye 
+AMAZON.StopIntent stop
+

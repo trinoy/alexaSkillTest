@@ -1,0 +1,48 @@
+{
+	  "intents": [
+	    {
+	      "intent": "SetReminder",
+	      "slots": [
+            {
+	          "name": "Title",
+	          "type": "LITERAL"
+	        },
+            
+	        {
+	          "name": "Date",
+	          "type": "DATE"
+	        }
+	      ]
+	    },
+
+	    {
+	      "intent": "GetReminder",
+	      "slots": [
+            {
+	          "name": "Date",
+	          "type": "DATE"
+	        },
+            {"name" :"productNumber",
+             "type" : "AMAZON.NUMBER"
+            }
+          ]
+	    },
+        {
+	      "intent": "DeleteReminder",
+	      "slots": [
+            {
+	          "name": "Title",
+	          "type": "LITERAL"
+	        },
+             {
+	          "name": "Date",
+	          "type": "Date"
+	        }
+            
+          ]
+	    },
+        {
+      	"intent": "AMAZON.StopIntent"
+    	}
+	  ]
+	}
