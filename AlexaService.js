@@ -487,7 +487,7 @@ function getDataFromHybris(startDateString,endDateString){
     var pathUrl = "/abcb2bcommercewebservices/v2/abcb2b/0100052423/calendarentries/get?fromDate=" + startDateString + "&toDate=" + endDateString + "&format=json";
     console.log(pathUrl);
     var options = {
-    host: 'abcorderdev.amerisourcebergen.com',
+    host: 'test1.com',
     port: 443,
     path: pathUrl,
     method: 'GET'
@@ -502,7 +502,7 @@ function getCreateDataFromHybris(){
     //var pathUrl = "/abcb2bcommercewebservices/v2/abcb2b/0100052423/calendarentries/orderreminders/create";
    // console.log(pathUrl);
     var options = {
-    host: 'abcorderdev.amerisourcebergen.com',
+    host: 'test1.com',
     //port: 443,
     path: '/abcb2bcommercewebservices/v2/abcb2b/0100052423/calendarentries/orderreminders/create',
     method: 'POST',
@@ -518,7 +518,7 @@ function deleteReminderFromHybris(entryId){
     var pathUrl = '/abcb2bcommercewebservices/v2/abcb2b/0100052423/calendarentries/remove/' + entryId;
     console.log(pathUrl);
     var options = {
-    host: 'abcorderdev.amerisourcebergen.com',
+    host: 'test1.com',
     port: 443,
     path: pathUrl,
     method: 'DELETE',
